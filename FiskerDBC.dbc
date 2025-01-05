@@ -33,7 +33,7 @@ NS_ :
 
 BS_: 
 BU_: Fisker 
-BO_ 2147485602 PKC_Query: 8 Fisker
+BO_ 2147485602 PKC_Request: 8 Fisker
    SG_ Request : 23|16@0+ (1,0) [0|1] "" Fisker
    SG_ Send_addional_parts : 7|16@0+ (1,0) [0|1] "" Fisker
 
@@ -41,12 +41,54 @@ BO_ 2147485610 PKC_Response: 8 Fisker
    SG_ Short_Response : 23|16@0+ (1,0) [0|1] "" Fisker
    SG_ Long_Response : 31|16@0+ (1,0) [0|1] "" Fisker
 
+BO_ 2147485656 ESP_Response: 8 Fisker
+
+BO_ 2147485585 PIU_Request: 8 Fisker
+
+BO_ 2147485593 PIU_Response: 8 Fisker
+
+BO_ 2147485638 VSP_Request: 8 Fisker
+
+BO_ 2147485646 VSP_Response: 8 Fisker
+
+BO_ 2147485634 VIN_Request: 8 Fisker
+
+BO_ 2147485642 VIN_Response: 8 Fisker
+
+BO_ 2147485663 ICC_-_maybe: 8 Fisker
+
+BO_ 2147485633 BCM_Request: 8 Fisker
+
+BO_ 2147485641 BCM_Response: 8 Fisker
+
+BO_ 2147485600 ACU_Request: 8 Fisker
+
+BO_ 2147485608 ACU_Response: 8 Fisker
+
+BO_ 2147485648 ESP_Request: 8 Fisker
+
+BO_ 2147485569 ICC_Request: 8 Fisker
+
+BO_ 2147485577 ICC_Response: 8 Fisker
+
+BO_ 2147485574 MCU_F_Request: 8 Fisker
+
+BO_ 2147485582 MCU_F_Response: 8 Fisker
+
 BA_DEF_ BO_ "GenMsgBackgroundColor" STRING ;
 BA_DEF_ BO_ "GenMsgForegroundColor" STRING ;
 BA_DEF_ BO_ "matchingcriteria" INT 0 0;
 BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
+BA_DEF_ BO_ "matchingcriteria" INT 0 0;
+BA_DEF_ BO_ "filterlabeling" INT 0 0;
 BA_DEF_DEF_ "GenMsgBackgroundColor" "#ffffff";
 BA_DEF_DEF_ "GenMsgForegroundColor" "#000000";
+BA_DEF_DEF_ "matchingcriteria" 0;
+BA_DEF_DEF_ "filterlabeling" 1;
 BA_DEF_DEF_ "matchingcriteria" 0;
 BA_DEF_DEF_ "filterlabeling" 1;
 VAL_ 2147485602 Request 61845 "PKC_Software_Version" 62467 "PKC_Number_of_FOBs_Synced" 63624 "PKC_Number_of_NFCs_Synced" 61827 "PKC_Bootloader_Version" 61831 "PKC_Part_Number" 61832 "PKC_Software_Number" 61841 "PKC_Hardware_Number" 62211 "PKC_In-Vehicle_NFC_part_number" 62216 "PKC_Handle_NFC_part_number";
